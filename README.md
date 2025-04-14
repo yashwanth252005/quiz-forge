@@ -6,7 +6,7 @@ QuizForge is an intelligent quiz web app that uses OpenAI's GPT to dynamically g
 
 ## 🚀 Live Demo
 
-👉 [https://quizforge.vercel.app](https://quizforge.vercel.app)
+👉 [https://quizforge.vercel.app](https://quizforge-nu.vercel.app/)
 
 ---
 
