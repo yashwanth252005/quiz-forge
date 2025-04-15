@@ -18,8 +18,8 @@ const ReviewAnswers = ({ answers, onBack }) => {
                             <div
                                 key={key}
                                 className={`p-2 rounded-md mb-1 
-                  ${isCorrect ? 'bg-green-100' : ''}
-                  ${isSelected && !isCorrect ? 'bg-red-100' : ''}
+                  ${isCorrect ? 'bg-green-100 text-black' : ''}
+                  ${isSelected && !isCorrect ? 'bg-red-100 text-black' : ''}
                 `}
                             >
                                 <strong>{key}</strong>. {value}
@@ -34,7 +34,7 @@ const ReviewAnswers = ({ answers, onBack }) => {
                     onClick={onBack}
                     className="mt-6 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
                 >
-                    Back to Summary
+                    Back to Home
                 </button>
             </div>
         </div>

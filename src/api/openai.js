@@ -15,7 +15,7 @@ export async function getQuizQuestions(topic, difficulty) {
   }
 ]`;
   
-  const client = new OpenAI({ baseURL: endpoint, apiKey: OPENAI_API_KEY });
+  const client = new OpenAI({ baseURL: endpoint, apiKey: OPENAI_API_KEY, dangerouslyAllowBrowser: true });
 
   const response = await client.chat.completions.create({
     messages: [{ role: 'user', content: prompt }],

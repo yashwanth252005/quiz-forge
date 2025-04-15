@@ -131,7 +131,7 @@ const QuizPage = () => {
           <p className="text-lg text-white mt-2">{question.question}</p>
         </div>
 
-        // Display options as buttons
+
         <div className="grid grid-cols-2 gap-4 mb-6">
           {Object.entries(question.options).map(([key, value]) => (
             <button
