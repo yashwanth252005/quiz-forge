@@ -13,9 +13,13 @@ QuizForge is an intelligent quiz web app that uses OpenAI's GPT to dynamically g
 
 ## 📸 Screenshots
 
-| Home | Quiz | Result |
-|------|------|--------|
-| ![Home](screenshots/home.png) | ![Quiz](screenshots/quiz.png) | ![Result](screenshots/result.png) |
+| Home |
+|------|
+| ![Screenshot 2025-04-15 235036](https://github.com/user-attachments/assets/9eec5968-9408-4c31-9758-ae53d78ad7e6)
+| Quiz |
+ | ![Screenshot 2025-04-15 234746](https://github.com/user-attachments/assets/9f6dc2ee-4f57-4a16-8e91-3dc0c770951b)
+ | Result |
+ | ![Screenshot 2025-04-16 143946](https://github.com/user-attachments/assets/8c749978-cae6-4c7e-94dc-e060aa7815cb) |
 
 ---
 
